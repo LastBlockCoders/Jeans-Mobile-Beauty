@@ -1,0 +1,21 @@
+The following will not accomplished sequentially but rather iteratively due to us employing agile design methodologies.
+
+Analysis Phase
+•	Requirements Definition
+•	Use Case Analysis
+•	Business Process and Functional Modelling
+•	Data Modelling
+•	Structural Modelling
+•	Behavioural Modelling
+
+Design Phase
+•	Database Design
+•	Web UI/UX Design
+
+Development Phase
+•	Database and tables
+•	Webpages and User Interfaces
+•	APIs
+•	Launching and hosting on AWS
+
+
