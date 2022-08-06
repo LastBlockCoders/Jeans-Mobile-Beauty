@@ -11,4 +11,5 @@ Create booking request
 Confirm or reject a booking request
 Modifying an existing booking request from customer side and admin side - change, add, reschedule
 Generate booking invoice/details
+Send both user and admin event details to add their calendars
 Pay for appointment through PayFast
