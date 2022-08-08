@@ -1,0 +1,45 @@
+1	Use Case [#]: [View Service]
+
+1.1	Description
+The customer clicks on a specific service and they are able to see detailed information about the service.
+
+1.2	Level
+
+1.3	Trigger
+User clicks on a specific service.
+
+1.4	Primary Actor
+Customer
+
+1.5	Additional/Supporting Actors
+The database storing the information
+
+1.6	Preconditions
+Internet connection
+
+1.7	Main Success Scenario
+1.	Customer chooses a service.
+2.	Website directs the customer to the service information.
+
+1.8	Extensions
+1.9	Post Conditions
+1.9.1	Success End Condition
+The customer views service information. 
+
+1.9.2	Minimal Guarantees
+1.9.3	Failure End Condition
+The customer does not view service information.
+
+1.10	Frequency
+Customers will probably view service information every time they visit the website.
+
+1.11	Special Requirements
+The customer should view the information almost instantly.
+
+1.11.1	Security
+1.11.2	Usability / Accessibility
+Customer must be able to view page in English.
+
+1.11.3	Other
+1.12	Issues and Next Steps
+
