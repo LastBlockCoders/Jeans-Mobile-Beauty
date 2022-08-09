@@ -1,16 +1,22 @@
 1.1	Description
 A user wants to ask a question on the app.
+
 1.2	Level
 User Goal
+
 1.3	Trigger
 A user reads something they can’t understand and decides to press the Ask a Question button.
+
 1.4	Primary Actor
 App user browsing through the services catalog
+
 1.5	Additional/Supporting Actors
 •	WhatsApp Chat Online Assistant
+
 1.6	Stakeholders 
 Stakeholders:
 •	Business marketing team
+
 1.7	Preconditions
 The User must be using a mobile phone with stable internet connection, a WhatsApp account and must have read some of the information on application already.
 1.8	Main Success Scenario
@@ -22,24 +28,31 @@ The User must be using a mobile phone with stable internet connection, a WhatsAp
 6.	Business then receives the user’s question and responds to it.
 7.	User returns feedback for resolving of their query
 8.	User then returns to the application
+
 1.9	Extensions
 1.	Exception: User doesn’t give a feedback response:
 1.	User is sent an additional chat to clarify if they had their query resolved
 2.	User sends feedback response
+
 1.10	Post Conditions
 1.10.1	Success End Condition
 The customer receives an answer to their query and returns to the application.
 Business closes the chat and deletes it.
+
 1.10.2	Minimal Guarantees
 The user enquiry will be eventually responded.
 Further questioning/chatting will take place in order to successfully get to the bottom of the source of the enquiry.
+
 1.10.3	Failure End Condition
 The information on the application remains unchanged and potentially unclear to the user.
+
 1.11	Frequency
 Enquiries might be submitted 10 – 20 times a day since the scale of the business is still small.
+
 1.12	Special Requirements
 1.12.1	Performance
-The user must be taken to the WhatsApp chat within 3 seconds and get a response within 24hours
+The user must be taken to the WhatsApp chat within 3 seconds and get a response within 24hours.
+
 1.12.2	Usability / Accessibility
 Online assistant should respond with pictures, graphs and/or videos if needed
 
