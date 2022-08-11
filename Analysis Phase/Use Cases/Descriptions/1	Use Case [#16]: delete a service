@@ -1,0 +1,47 @@
+1	Use Case [#16]: delete a service
+1.1	Description
+There are services that are available or offered on the website, and the service is to be removed or cancelled by the admin.
+1.2	Level
+Sub-Function 
+1.3	Trigger
+The admin selects the option to edit services and selects remove/delete service.
+1.4	Primary Actor
+The Primary Actor is the admin who must remove a service/ product from the site.
+1.5	Additional/Supporting Actors
+Secondary Actors: 
+•	Service provider
+1.6	Stakeholders 
+Stakeholders:
+•	Service provider.
+•	People who will look for the service.
+1.7	Preconditions
+The admin [Primary Actor] must have an active internet connection, logged onto the admin site open in the browser, and the service must exist on the browser.
+1.8	Main Success Scenario
+1.	Customer views appointments.
+2.	Customer appointments are displayed to customer.
+1.9	Extensions
+1.	Exception: service does not exist:
+1.	System doesn’t have the service to be deleted.
+
+1.	Alternative: admin can add service.
+1.	Service is put on site.
+1.10	Post Conditions
+1.10.1	Success End Condition
+Service is deleted.
+1.10.2	Minimal Guarantees
+The admin is logged out of page. The system logs the delete request and updates the available services.
+1.10.3	Failure End Condition
+Service is not deleted and continues to be available on site.
+1.11	Frequency
+Allow admin to delete multiple services at once.
+1.12	Special Requirements
+Customers that knew the service and needed it will no longer have access to it
+1.12.1	Performance
+The service should not appear when the admin is done deleting the service, they should be redirected to services page that is updated.
+1.12.2	Security
+Only admin should be able to delete services.
+1.12.3	Usability / Accessibility
+Admin edit services page must comply with South African Disabilities Act requirements.
+Admin must be able to view page in English, and on any device of choice.
+1.12.4	Other
+
