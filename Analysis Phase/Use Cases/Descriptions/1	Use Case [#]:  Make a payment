@@ -1,0 +1,64 @@
+1	Use Case [#]:  Make a payment
+
+1.1	Description
+The customer chooses a payment option.
+
+1.2	Level
+User-goal
+
+1.3	Trigger
+The customer clicks pay on their appointment details.
+
+1.4	Primary Actor
+The Customer
+
+1.5	Additional/Supporting Actors
+Secondary Actors: 
+•	PayFast payment gateway
+
+1.6	Stakeholders 
+Stakeholders:
+•	Business Admin
+•	Business casual worker
+
+1.7	Preconditions
+The Customer must have made a booking/appointment request and it was accepted.
+
+1.8	Main Success Scenario
+1.	Customer is directed to the appointments page after submitting a booking request.
+2.	Business admin accepts the booking.
+3.	Appointment display the Pay Now option to make a payment.
+4.	Customer chooses Cash, if available, or PayFast payment.
+5.	Customer completes payment.
+6.	Confirmation email is sent to customer.
+
+1.9	Extensions
+1.	Exception: PayFast times out and payment is not made:
+1.	Application still displays the Pay Now option
+2.	Customer tries again.
+
+1.10	Post Conditions
+1.10.1	Success End Condition
+The customer chooses a payment option. 
+Transaction of online payment takes place and data is sent back to the application database. 
+Confirmation email is sent to the user.
+1.10.2	Minimal Guarantees
+No guarantees. Either a payment is processed or it is not.
+1.10.3	Failure End Condition
+Payment unsuccessful returns customer to the appointment page.
+
+1.11	Frequency
+Online Purchases might occur 5 – 10 times per day.
+
+1.12	Special Requirements
+1.12.1	Performance
+The customer should be taken to the order confirmation screen with 10 seconds of entering payment information.
+1.12.2	Security
+Customer’s payment will done through a secure gateway payment service, there is no need for them to store their payment details on the application. 
+1.12.3	Usability / Accessibility
+1.12.4	Other
+On applicable services users can select the cash option which will automatically result in successful payment
+
+1.13	Issues and Next Steps
+Issues:
+•	Prices, service fees and tax should be decided 
