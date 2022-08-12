@@ -1,0 +1,58 @@
+1.1	Description
+Application must show available booking date and time to customers.
+
+1.2	Level
+High-Level Summary
+
+1.3	Trigger
+The Customer wants to make a booking request and must select an appointment date.
+
+1.4	Primary Actor
+Customer.
+
+1.5	Additional/Supporting Actors
+•	Business admin
+
+1.6	Stakeholders 
+Stakeholders:
+•	Business admin
+•	Business casual worker
+
+1.7	Preconditions
+Customer booking is in progress.
+
+1.8	Main Success Scenario
+1.	Customer chooses a service.
+2.	System loads and checks already booked appointments.
+3.	System displays available dates and time slots.
+
+1.9	Extensions
+1.	Exception: Booking slots full:
+1.	Application displays warning
+2.	New slots are generated on the next day after an advance in date.
+
+1.10	Post Conditions
+1.10.1	Success End Condition
+The customer is able to pick from a number of options for the date and time of the appointment. 
+
+1.10.2	Minimal Guarantees
+The will always be a booking slot open on the next day if there none on the current/previous day.
+
+1.10.3	Failure End Condition
+No slots are generated and customers are not able to book.
+
+1.11	Frequency
+Every day/24hrs.
+
+1.12	Special Requirements
+1.12.1	Performance
+The booking slots will be available to all users and only updated after 24hrs to reflect changes.
+1.12.2	Security
+Customer’s payment method account number will be masked in the display 
+1.12.3	Usability / Accessibility
+Once the business admin accepts a booking request then customers that booked on the same day will be alerted whether their chosen time slot was unavailable.
+1.12.4	Other
+
+1.13	Issues and Next Steps
+Issues:
+•	State in the terms and conditions that although a slot might be generated for a user it is up to the business admin to accept the booking at that date and time. If their booking is rejected, then the business admin can choose to reschedule them or they can make another booking request with a different date and time slot.
