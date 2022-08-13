@@ -1,6 +1,7 @@
-1	Use Case [#]:  Process Customer Booking Request
+1	Use Case [#14]:  Process Customer Booking Request
+
 1.1	Description
-The business admin must either accept or deny user requests
+The business admin must either accept, reschedule or deny user requests
 
 1.2	Level
 Sub-function
@@ -18,24 +19,21 @@ Business admin.
 Stakeholders:
 •	Payment gateway
 •	Business casual worker
+* Other customers
 
 1.7	Preconditions
-The Customer must have opened a user account, selected a desired service, a date/time and requested an appointment.
+The Customer must have opened a user account and requested an appointment for a service.
 
 1.8	Main Success Scenario
 1.	Customer makes a booking request.
-2.	The request is sent to the admin application display.
+2.	The request is sent to the admin application.
 3.	Business admin views the appointment details.
 4.	If the booking is accepted Execute: 
 Accept Booking Request – use case.
-5.	If the booking request is accepted Execute:
+5.	If the booking request is rejected Execute:
  Reject Booking Request – use case
  
 1.9	Extensions
-1.	Exception: Customer cancels booking request before response to it:
-1.	The request is removed from the booking requests panel
-2.	Request status is updated to cancelled.
-
 1.	Alternative: Customer chooses to reschedule a booking
 1.	Booking status is changed to processing
 2.	Booking request is sent to admin application display.
@@ -47,16 +45,16 @@ Accept Booking Request – use case.
 1.10	Post Conditions
 1.10.1	Success End Condition
 The customer receives a response to their request.
-The appointment date and time slot is removed from booking slots calendar.
+The appointment date and time slot is removed from booking slots.
 
 1.10.2	Minimal Guarantees
-The customer and admin will be able top view the details of the appointment booking and can check its status with the view appointments use case.
+The customer and admin will be able to view the details of the appointment and can check its status with the view appointments use case.
 
 1.10.3	Failure End Condition
 The customer does not have their booking request processed and more requests with the same date and time slot continue to be received.
 
 1.11	Frequency
-Processing might happen 5-10 times a day
+Processing might happen 5-10 times a day currently
 
 1.12	Special Requirements
 1.12.1	Performance
