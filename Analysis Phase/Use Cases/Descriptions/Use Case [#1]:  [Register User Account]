@@ -13,6 +13,7 @@ The Customer clicks sign up link.
 Customer
 
 1.5	Additional/Supporting Actors
+None
 
 1.6	Stakeholders 
 Stakeholders:
@@ -38,8 +39,8 @@ The Customer must have an active internet connection, logged onto application.
 1.10	Post Conditions
 1.10.1	Success End Condition
 The customer receives a registration confirmation.
- 
 1.10.2	Minimal Guarantees
+None
 1.10.3	Failure End Condition
 The customer fails to register an account and cannot make booking requests.
 
@@ -49,14 +50,10 @@ Always
 1.12	Special Requirements
 1.12.1	Performance
 The customer should be able to complete registration within 3 minutes
-
 1.12.2	Security
-Customer’s password will be masked in the display and in th email confirmation.
- 
+Customer’s password will be masked in the display and in th email confirmation. 
 1.12.3	Usability / Accessibility
 Customer must be able to view page in English.
-
-1.12.4	Other
 
 1.13	Issues and Next Steps
 Address has to be a multiline input with city, suburb, street, house/complex no. and postal code
