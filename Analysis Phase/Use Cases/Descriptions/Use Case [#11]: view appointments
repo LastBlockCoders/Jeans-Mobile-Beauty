@@ -1,13 +1,13 @@
-1	Use Case [#11]: view appointments
+1	Use Case [#11]: View appointments
 
 1.1	Description
 The customer has made an appointment and decides to check their appointment details for confirmation and to check if they can reschedule.
 
 1.2	Level
-Sub-Function 
+High-Level 
 
 1.3	Trigger
-The Customer clicks the view appointments hyperlink.
+The Customer clicks the view appointments.
 
 1.4	Primary Actor
 The Primary Actor is the Customer who has made an appointment.
@@ -26,7 +26,7 @@ The customer must have an active internet connection, logged onto the applicatio
 1.8	Main Success Scenario
 1.	Customer logs into their account.
 2.	Clicks on [view appointments] button/icon.
-3.  All scheduled and Pending appointment bookings are then shown to the customer
+3.  All scheduled and pending appointment bookings are then shown to the customer
 
 1.9	Extensions
 1.	Exception: Customer has no appointments:
@@ -34,7 +34,7 @@ The customer must have an active internet connection, logged onto the applicatio
 2.	Actor makes appointment.
 3.	The System responds.
 
-1.	Alternative: Actor makes appointment on appointments screen.
+1.	Alternative: Actor makes appointment through appointments screen.
 1.	Application directs to make an appointment if screen is empty.
 2.	Application processes appointment information.
 3.	Actor is then shown appointment details.
