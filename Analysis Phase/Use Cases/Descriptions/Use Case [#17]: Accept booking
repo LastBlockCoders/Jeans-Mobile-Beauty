@@ -1,12 +1,13 @@
-1	Use Case [#]:  [Accepting a booking request]
+1	Use Case [#17]:  [Accepting a booking request]
 
 1.1	Description
 The admin accepts a booking request made by the customer.
 
 1.2	Level
+Sub-function
 
 1.3	Trigger
-The Customer makes a booking request and the admin accepts it.
+The Customer makes a booking request.
 
 1.4	Primary Actor
 The admin
@@ -15,26 +16,27 @@ The admin
 Customer
 
 1.6	Stakeholders 
-Employee
+Business casual worker
+Other customers
 
 1.7	Preconditions
 The admin [Primary Actor] must have  received a booking request and the should be logged in to the administrator account.
 
 1.8	Main Success Scenario
-[Document the steps that illustrate the straightest or simplest path (the “happy path”) to accomplishing the goal. The main success scenario should describe the actors’ actions/stimuli and system response to the action or stimulus. This scenario should always end with a success end condition.]
 1.	Customer makes a booking request.
 2.	Admin accepts the request.
-3.	Customer receives conformation.
+3.  Appointment request status is changeg from Processing to Schdeduled
+4.  Customer is aksed to make a payment
+3.	Customer receives confirmation and a calendar event to add to their mobile calendar.
 
 1.9	Extensions
 1.10	Post Conditions
 1.10.1	Success End Condition
-The customer receives an order received confirmation. 
-The accounting department confirms a payment transaction. 
+The customer receives a confirmation email with a calandar event to RSVP
 
 1.10.2	Minimal Guarantees
 1.10.3	Failure End Condition
-The admin does not accept the booking request and the customer’s booking is unsuccessful.
+Execution of: Reject Booking.
 
 1.11	Frequency
 Depends on the success of the business.
