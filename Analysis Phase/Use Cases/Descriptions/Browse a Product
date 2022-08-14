@@ -1,0 +1,64 @@
+1	Use Case [#]:  [Browse a Service]
+1.1	Description
+The Customer decides to browse for products from the online catalog.
+
+1.2	Level
+Low Level
+
+1.3	Trigger
+The Customer clicks the browse products button.
+
+1.4	Primary Actor
+The Primary Actor is the Customer shopping the Company’s online catalog.
+
+1.5	Additional/Supporting Actors
+Secondary Actors: 
+•	Online Chat Assistant/Tech Support
+
+1.6	Stakeholders 
+Stakeholders:
+•	Admin
+•	Employees
+
+1.7	Preconditions
+[List the system state/conditions which must be true before this Use Case can be executed.]
+The Customer must have an active internet connection, logged onto the website open in the browser.
+
+1.8	Main Success Scenario
+[Document the steps that illustrate the straightest or simplest path (the “happy path”) to accomplishing the goal. The main success scenario should describe the actors’ actions/stimuli and system response to the action or stimulus. This scenario should always end with a success end condition.]
+1.	Customer opens site.
+2.	Customer clicks on browse products button.
+3.	The system responds.
+4.	Product catalog list opens.
+
+1.9	Extensions
+1.	Alternative: the customer scrolls downwards to view the product on the webpage.
+
+1.10	Post Conditions
+1.10.1	Success End Condition
+The customer views and selects a product from the product line. 
+
+1.10.2	Minimal Guarantees
+The customer is logged out of order page. The system updates the customer account history.
+
+1.10.3	Failure End Condition
+The customer does not view the desired item, and the Company’s inventory remains unchanged.
+
+1.11	Frequency
+Transact Online Purchases will occur 50 – 100 times per hour.
+
+1.12	Special Requirements
+[Describe any additional factors that impact the execution of the use case. These could be environmental, regulatory, organizational or market-driven in nature.]
+
+1.12.1	Performance
+The customer should be taken to the product catalog soon after they click the browse products button.
+
+1.12.2	Security
+
+  
+1.12.3	Usability / Accessibility
+Order page must comply with Americans with Disabilities Act requirements.
+Customer must be able to view page in English.
+
+1.13	Issues and Next Steps
+
