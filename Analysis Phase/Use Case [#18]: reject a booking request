@@ -1,0 +1,44 @@
+1	Use Case [#18]: reject a booking request
+1.1	Description
+The admin should be able to reject a booking request when they cannot fulfill the appointment.
+1.2	Level
+Summary.
+1.3	Trigger
+The admin selects bookings made option.
+1.4	Primary Actor
+The Primary Actor is the admin who decides which appointments they will be able to fulfil.
+1.5	Additional/Supporting Actors
+Secondary Actors: 
+•	Appointment fulfilment team.
+1.6	Stakeholders 
+Stakeholders:
+•	Appointment fulfilment team.
+1.7	Preconditions
+The admin [Primary Actor] must have an active internet connection, logged onto the [company.com/shop] site open in the browser there must be appointments made.
+1.8	Main Success Scenario
+1.	Admin rejects the appointment
+2.	Customer is notified that appointment cannot be fulfilled
+1.9	Extensions
+1.	Exception: ?
+
+1.	Alternative: ?
+1.10	Post Conditions
+1.10.1	Success End Condition
+The admin successfully rejects the booking.
+1.10.2	Minimal Guarantees
+The admin is logged out of page. The system logs the appointment rejected and updates the bookings page.
+1.10.3	Failure End Condition
+No bookings are rejected (customer is not notified that their appointment cannot be fulfilled).
+1.11	Frequency
+Every booking made must either be accepted or rejected.
+1.12	Special Requirements
+None.
+1.12.1	Performance
+The admin should be taken to bookings page within 5 seconds.
+1.12.2	Security
+Only admin can reject bookings.
+1.12.3	Usability / Accessibility
+Order page must comply with South Africans with Disabilities Act requirements.
+Admin must be able to view page in English.
+1.12.4	Other
+None.
