@@ -12,13 +12,10 @@ The Admin clicks the add new service button
 The Admin 
 
 1.5	Additional/Supporting Actors
-The Customer
-Database 
 
 1.6	Stakeholders 
 •	Employees
-•	Order system
-•	Shipping 
+•	Customers
 
 1.7	Preconditions
 
@@ -31,7 +28,7 @@ The Admin must have clicked on the add new service button.
 3.	Database registers new service.
 4.	Admin confirms the details of new Service.
 5.	The system confirms registration of new service.
-6.	The system adds new service on the site.
+6.	New services is displayed to application users.
 
 1.9	Extensions
 1.	Exception: Submitted data is incomplete:
