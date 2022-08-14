@@ -1,8 +1,7 @@
-•	Client UI and administrator UI
-•	A valid SSL certificate
-•	The back-end and front-end applications communicating through APIs for security
-•	Clients must be able to make, reschedule or cancel an online appointment
-•	The business should be able to confirm or reject or reschedule appointments
-•	Client should be able to choose a payment method
+•	Client application and Administration application
+•	Valid SSL certificate
+•	The back-end and front-end systems communicating through APIs
+•	Clients booking system
+•	Business booking management system
+•	Online payments options
 •	Capturing and monitoring of analytics
-•	Ability to customize application by using an admin client/application
