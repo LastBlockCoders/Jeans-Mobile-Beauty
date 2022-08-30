@@ -1,0 +1,13 @@
+Method	Route	Functionality	Access
+POST	/auth/signup/	Register new user	All users
+POST	/auth/jwt/create/	Login user	All users
+POST	/auth/jwt/refresh/	Refresh the access token	All users
+POST	/auth/jwt/verify/	Verify validity of a token	All users
+POST	/appointments/	Place an appointment request	All users
+POST	/appointments/	Get all appointments requests	Superuser
+GET	/appointments/{app_id}/	Retrieve an appointment	Superuser
+GET	/user/{user_id}/appointments/	Retrieve a user’s appointments	User
+GET	/user/{user_id}/appointments/	Retrieve a user’s specific appointment	User
+DELETE	/delete/{app_id}/	delete/remove an appointment	
+PUT	/appointments/{app_id}/	Update an appointment	All users
+PUT	/update-status/{app_id}/	Update appointment status	Superuser
